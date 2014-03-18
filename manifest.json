@@ -1,0 +1,16 @@
+{
+  "manifest_version": 1,
+
+  "name": "Clone for GitHub",
+  "description": "This extension allows you to one-click clone GitHub repo urls, complete with clone command to your clipboard.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://www.github.com/",
+    "http://www.github.com/"
+  ]
+}
